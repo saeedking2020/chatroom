@@ -1,9 +1,9 @@
-after downloading the project, run:
+After downloading the project, run:
 php artisan migrate to create the database and tables.
 
 Then, you can run the program.
 
-This is a project with the main focus on backend and laravel CRUD operations.
+This is a project with the main focus on backend and Laravel CRUD operations.
 
 In this project, everyone must log in to be able to use the website. Login and Register are the possibilities.
 
