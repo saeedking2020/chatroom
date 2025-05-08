@@ -17,3 +17,7 @@ Route::get('/', [ChatController::class,'display'])->name('show')->middleware('au
 Route::delete('/delete/{id}',[ChatController::class,'delete'])->name('delete');
 Route::get('/edit/{id}',[ChatController::class,'edit'])->name('edit');
 Route::put('/update/{id}',[ChatController::class,'update'])->name('update');
+
+Route::get('/about', function (){
+    return view('about');
+})->name('about');
